@@ -25,6 +25,7 @@ Partial Class _Default
         pay = taxpay - tax
         result = pay - after
         lblresult.Text = String.Format("{0:C2}", result)
+
     End Sub
 
     Protected Sub btnclear_Click(sender As Object, e As EventArgs) Handles btnclear.Click
